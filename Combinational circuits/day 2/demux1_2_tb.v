@@ -1,7 +1,7 @@
-module demux2_1_tb;
+module demux1_2_tb;
   reg s,i;
   wire y0,y1;
-  demux2_1 dm(s,i,y0,y1);
+  demux1_2 dm(s,i,y0,y1);
   initial begin
     $dumpfile("dump.vcd");
     $dumpvars(1);
